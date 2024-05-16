@@ -31,13 +31,13 @@
 
 /* Update footer link styles */
 .footer-links a {
-  color: #000; /* Black text */
+  color: #008080; /* Update to a color with higher contrast */
   text-decoration: none;
   transition: color 0.2s;
 }
 
 .footer-links a:hover {
-  color: #008080; /* Update to a color with higher contrast */
+  color: #004040; /* Darken the hover color for better visibility */
 }
 
 
