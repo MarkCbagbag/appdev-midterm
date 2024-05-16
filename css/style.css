@@ -1,4 +1,3 @@
-/* Update button styles */
 .button-container a {
   display: inline-block;
   padding: 10px 20px;
@@ -6,40 +5,37 @@
   border-radius: 30px;
   text-decoration: none;
   font-size: 16px;
-  font-weight: bold;
-  transition: opacity 0.2s;
+  font-weight: 700;
+  transition: opacity 0.2s
 }
 
-/* Update colors for the buttons */
 .button-container a.bg-strongCyan {
-  background-color: #00adb5; /* Adjust color to ensure sufficient contrast */
-  color: #fff; /* White text */
+  background-color: #00adb5;
+  color: #fff
 }
 
 .button-container a.bg-strongCyan:hover {
-  opacity: 0.8;
+  opacity: .8
 }
 
 .button-container a.bg-lightBlue {
-  background-color: #1e90ff; /* Adjust color to ensure sufficient contrast */
-  color: #fff; /* White text */
+  background-color: #1e90ff;
+  color: #fff
 }
 
 .button-container a.bg-lightBlue:hover {
-  opacity: 0.8;
+  opacity: .8
 }
 
-/* Update footer link styles */
 .footer-links a {
-  color: #000; /* Black text */
+  color: #000;
   text-decoration: none;
-  transition: color 0.2s;
+  transition: color 0.2s
 }
 
 .footer-links a:hover {
-  color: #00adb5; /* Adjust color to ensure sufficient contrast */
+  color: #00adb5
 }
-
 
 a,
 hr {
@@ -103,8 +99,6 @@ sup {
 .text-grayishBlue {
   color: hsl(201 11% 66% / var(--tw-text-opacity))
 }
-
-
 
 *,
 ::after,
@@ -171,7 +165,7 @@ html {
 
 body {
   line-height: inherit;
-  background-image: url('../images/bg-header-desktop.png');
+  background-image: url(../images/bg-header-desktop.png);
   background-repeat: no-repeat;
   background-size: contain
 }
@@ -267,7 +261,7 @@ select {
 [type=submit],
 button {
   -webkit-appearance: button;
-  background-color: transparent;
+  background-color: #fff0;
   background-image: none
 }
 
@@ -579,7 +573,7 @@ h5 {
 
 @media (max-width:576px) {
   body {
-    background-image: url('../images/bg-header-mobile.png')
+    background-image: url(../images/bg-header-mobile.png)
   }
 }
 
